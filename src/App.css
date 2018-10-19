@@ -1,0 +1,559 @@
+#mainNav {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    border-color: transparent;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color:white;
+  }
+  #navitembro{
+      color:white;
+      text-transform:uppercase;
+      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+      font-size:20px;
+  }
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F05F40;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212529;
+  }
+  
+  
+  
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+    background-color: transparent;
+  }
+  
+  /* @media (min-width: 992px) {
+    #mainNav {
+      border-color: transparent;
+      background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #fff;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link {
+      padding: 0.5rem 1rem;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #fff;
+    }
+    #mainNav.navbar-shrink {
+      border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+      background-color: #fff;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #F05F40;
+    }
+    #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+      color: #f05f40;
+    }
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+      color: #212529;
+    }
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #F05F40;
+    }
+  } */
+
+ 
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(27rem - 56px);
+    background-image: url("./imagesandstuff/projectbackground.jpg");
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 2;
+  }
+
+header.masthead h1 {
+    font-size: 2rem;
+  }
+
+  header.masthead p {
+    font-weight: 300;
+  }
+
+  
+
+  @media (min-width: 768px) {
+    header.masthead p {
+      font-size: 1.15rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    header.masthead h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    header.masthead h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (min-width:697px){
+
+  }
+
+
+
+  .btn-outline-light:hover{
+      opacity: 0.5;
+      color:red;
+      
+  }
+
+  #headername{
+    animation:fadein 3s forwards;
+
+    opacity:0
+  }
+
+  #fsd{
+    animation:fadein 1s ease-in 1s forwards;
+    opacity:0;
+  }
+
+  #findoutmore:hover{
+    color:white;
+  }
+
+  
+/* animations */
+@keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+
+}
+
+
+
+blink{
+    animation: blink 1s linear infinite;
+    border-right:10px solid white;
+    
+}
+
+/* about me configuration */
+
+#personalpic{
+    width:235px;
+    height:315px;
+    display:block;
+    margin-top:10px;
+    margin-left:227px;
+    
+}
+
+.iconviews{
+  display:flex;
+    justify-content: center;
+}
+
+#icon{
+    text-align:center;
+    margin-top:40px;
+    display:inline-block;
+    width:50px;
+    margin-right:50px;
+}
+/* aboutme component configs */
+
+.aboutview{
+    background-image:url('./imagesandstuff/projectbackground.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    
+    display:cover;
+
+    
+}
+
+.aboutp1{
+    width:500px;
+    
+
+    
+}
+.aboutp2{
+    width:500px;
+   
+   
+}
+
+.aboutp3{
+    width:500px;
+    
+}
+
+.aboutp > p{
+  margin:auto;
+    display:inline-block;
+    color:white;
+    font-family: 'Cardo', serif;
+    font-size:17px;
+    animation:fadein 1s forwards;
+    opacity:0;
+
+}
+
+.aboutheader{
+    margin-top:80px;
+}
+
+.aboutproject{
+    display:block;
+}
+
+.aboutprojectpicture{
+    display:block;
+
+}
+
+/* project component configs */
+
+.aboutproject1{
+    margin-top:25px;
+}
+.aboutproject2{
+    margin-top:35px;
+}
+.aboutproject3{
+    margin-top:35px;
+}
+
+.aboutcontainer{
+    height:100vh;
+}
+.aboutrow{
+    margin-top:90px;
+   
+}
+.projectheader1{
+    margin-top:50px;
+    
+    overflow:auto;
+    
+}
+.projectheader2{
+    
+    
+    overflow:auto;
+}
+.projectheader3{
+   
+    
+    overflow:auto;
+
+}
+
+.projectcontainer{
+    height:100vh;
+    overflow: hidden;
+}
+#origincalendar{
+    height:300px;
+    width:500px;
+    padding:25px;
+}
+
+.headerproj{
+    color:white;
+    margin-top:130px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size:42px;
+    animation:fadein 3s forwards;
+
+    opacity:0;
+    text-transform:uppercase;
+    
+    
+}
+
+.projectview{
+    text-align:center;
+    background-image:url('./imagesandstuff/projectbackground.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    overflow:hidden;
+    display:cover;
+}
+
+.headercal{
+    margin-top:75px;
+    color:white;
+    
+    }
+
+.roundit{
+    border-radius:30px;
+}
+
+
+.origincalendarabout{
+    width:550px;
+    color:white;
+    
+    margin-top:25px;
+    
+}
+
+.origincalendarp{
+    width:600px;
+    
+}
+
+.calendarlink1{
+    color: rgba(255, 255, 255, 1);
+    text-decoration:none;
+    text-align:center;
+    font-family: 'Cardo', serif;
+    font-size:20px;
+    animation:fadein 1s ease-in 1s forwards;
+    opacity:0;
+}
+
+.calendarlink1:hover{
+    color: rgba(255, 255, 255, 1);
+    text-decoration:none;
+}
+.calendarlink2{
+    color: rgba(255, 255, 255, 1);
+    text-decoration:none;
+    text-align:center;
+    font-family: 'Cardo', serif;
+    animation:fadein 1s ease-in 2s forwards;
+    opacity:0;
+    font-size:20px;
+}
+
+.calendarlink2:hover{
+    color: rgba(255, 255, 255, 1);
+    text-decoration:none;
+}
+.calendarlink3{
+    color: rgba(255, 255, 255, 1);
+    text-decoration:none;
+    text-align:center;
+    font-family: 'Cardo', serif;
+   
+    font-size:20px;
+    animation:fadein 1s ease-in 3s forwards;
+    opacity:0;
+}
+
+.calendarlink3:hover{
+    color: rgba(255, 255, 255, 1);
+    text-decoration:none;
+}
+
+.projectviewlink{
+    margin-top:130px;
+    
+}
+
+.projectviewlink > a{
+    padding:20px;
+}
+
+#herelivetag{
+    color: lightslategray;
+    font-weight:bold;
+}
+
+#notxtdec{
+   color:white;
+   text-decoration:none;
+}
+
+#notxtdec:hover{
+    color:lightslategray;
+    
+}
+/* contactstuff */
+
+.contact-info{
+    display: inline-block;
+
+}
+
+#iconcontact{
+    margin-top:0.5rem;
+    width:50px;
+    height:50px;
+   
+
+}
+
+#contactmeatag:hover{
+    color:lightslategray;
+}
+.container-contact{
+    height:100vh;
+    overflow:hidden;
+}
+.contactheader{
+   margin-top:70px;
+   color:white; 
+   font-family: 'Oswald', sans-serif;
+   text-transform:uppercase;
+}
+
+#contactmeatag{
+    text-decoration:none;
+    font-family: 'Cardo', serif;
+    color:white;
+
+}
+
+#contactmeheader{
+    animation:fadein 3s forwards;
+
+    opacity:0
+}
+
+@keyframes fadein{
+    0%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+
+#contactmeatag{
+    animation:fadein 1s ease-in 1s forwards;
+    opacity:0;
+
+}
+
+.flex-container{
+    display:flex;
+    justify-content:center;
+}
+
+.flex-container > ul >li{
+    margin:10px;
+    padding:15px;
+    list-style-type:none;
+    display:inline;
+    color:white;
+    text-transform:uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size:20px;
+    
+
+    
+}
+
+.flexitem{
+    justify-content:center;
+}
+
+.navlink{
+    color:white;
+      text-transform:uppercase;
+      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+      font-size:20px;
+}
+
+@media screen and (max-width: 600px){
+    .navlink{
+        font-size:13px;
+        margin-right:5px;
+    }
+
+    .headerproj{
+        font-size:20px;
+    }
+
+    .calendarlink1{
+        font-size:13px;
+        
+    }
+    .calendarlink2{
+        font-size:13px;
+       
+    }
+    .calendarlink3{
+        font-size:13px;
+        
+    }
+
+    #contactmetag{
+        font-size:15px;
+        color:blue;
+    }
+   
+
+}
+
+@media screen and (max-width:450px){
+    #contactmeheader{
+        font-size:20px;
+    
+    }
+
+    .contactheader{
+        margin-top:50px;
+        text-align: center;
+    }
+
+    .flex-container > ul >li{
+        padding:5px;
+        justify-content:center;
+        
+    }
+    .flexitem{
+        padding-inline-start:0px;
+    }
+
+    .contactmeemail{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .projectviewlink > a{
+        display:inline;
+        padding:9px;
+    }
+}
