@@ -556,4 +556,21 @@ blink{
         display:inline;
         padding:9px;
     }
+
+    #personalpic{
+        margin:auto;
+    }
+    .aboutview{
+        overflow:hidden;
+    }
+
+    .aboutp1{
+        width:300px;
+    }
+}
+
+@media screen and (max-width:525px){
+    .aboutp1{
+        width:300px;
+    }
 }
