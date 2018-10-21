@@ -602,3 +602,7 @@ blink{
     background-color:black;
     
 }
+
+a.navlink:hover{
+    color:white;
+}
