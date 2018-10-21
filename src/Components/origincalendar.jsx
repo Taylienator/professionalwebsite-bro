@@ -7,7 +7,14 @@ export default class Origin extends React.Component{
         return(
             <div>
                 <div class='projectview'>
-                <Navbar />
+                <div className='flex-container'>
+                            <ul className='flexitem'>
+                                <li><Link to='/' className='navlink'>Home</Link></li>
+                                <li><Link to ='/aboutme' className='navlink'>About</Link></li>
+                                <li><Link to='/project' className='navlink'>Projects</Link></li>
+                                <li><Link to='/contact' className='navlink'>Contact</Link></li>
+                            </ul>
+                         </div>
                     <div className='projectcontainer'>
 
                          <h1 class='headercal'>Origin Calendar</h1>
