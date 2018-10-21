@@ -4,35 +4,17 @@
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    color:white;
+    
   }
   #navitembro{
-      color:white;
+      
       text-transform:uppercase;
       font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
       font-size:20px;
   }
-  #mainNav .navbar-brand {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #F05F40;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  }
-  
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    font-size: .9rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #212529;
-  }
   
   
-  
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-    background-color: transparent;
-  }
+
   
   /* @media (min-width: 992px) {
     #mainNav {
@@ -467,7 +449,7 @@ blink{
 
 .flex-container{
     display:flex;
-    justify-content:center;
+    justify-content:flex-end;
 }
 
 .flex-container > ul >li{
@@ -479,6 +461,7 @@ blink{
     text-transform:uppercase;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-size:20px;
+    
     
 
     
@@ -522,6 +505,14 @@ blink{
         font-size:15px;
         color:blue;
     }
+    #navitembro{
+        font-size:15px;
+    }
+   
+    .flex-container{
+        display:flex;
+        justify-content:center;
+    }
    
 
 }
@@ -531,7 +522,7 @@ blink{
         font-size:20px;
     
     }
-
+   
     .contactheader{
         margin-top:50px;
         text-align: center;
@@ -549,6 +540,16 @@ blink{
     .contactmeemail{
         font-size:15px;
     }
+    #navitembro{
+        font-size:15px;
+    }
+
+    .flex-container{
+        display:flex;
+        justify-content:center;
+    }
+   
+   
 }
 
 @media screen and (max-width:360px){
@@ -556,6 +557,7 @@ blink{
         display:inline;
         padding:9px;
     }
+   
 
     #personalpic{
         margin:auto;
@@ -567,10 +569,36 @@ blink{
     .aboutp1{
         width:300px;
     }
+    #navitembro{
+        font-size:15px;
+    }
+    
+   .flex-container{
+       display:flex;
+       justify-content:center;
+   }
 }
 
 @media screen and (max-width:525px){
     .aboutp1{
         width:300px;
     }
+
+    #navitembro{
+        font-size:15px;
+    }
+    .flex-container{
+        display:flex;
+        justify-content:center;
+    }
+}
+
+.hellonav{
+    list-style-type: none;
+    text-decoration:none;
+}
+
+.nav-link{
+    background-color:black;
+    
 }

@@ -26,8 +26,15 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
-           <Navbar />
+      <div className='projectview'>
+          <div className='flex-container'>
+          <ul className='flexitem'>
+                                <li><Link to='/' className='navlink'>Home</Link></li>
+                                <li><Link to ='/aboutme' className='navlink'>About</Link></li>
+                                <li><Link to='/project' className='navlink'>Projects</Link></li>
+                                <li><Link to='/contact' className='navlink'>Contact</Link></li>
+                            </ul>
+          </div>
            
 
     <header class="masthead text-center text-white d-flex">

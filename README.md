@@ -520,8 +520,8 @@ For example, this:
 
 ```css
 .App {
-  display: flex;
-  flex-direction: row;
+  display: ;
+  -direction: row;
   align-items: center;
 }
 ```
@@ -531,14 +531,14 @@ becomes this:
 ```css
 .App {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-box;
+  display: ;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms--direction: row;
+          -direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
+      -ms--align: center;
           align-items: center;
 }
 ```
@@ -1073,7 +1073,7 @@ Fetch API cannot load http://localhost:4000/api/todos. No 'Access-Control-Allow-
 Keep in mind that `proxy` only has effect in development (with `npm start`), and it is up to you to ensure that URLs like `/api/todos` point to the right thing in production. You don’t have to use the `/api` prefix. Any unrecognized request without a `text/html` accept header will be redirected to the specified `proxy`.
 
 The `proxy` option supports HTTP, HTTPS and WebSocket connections.<br>
-If the `proxy` option is **not** flexible enough for you, alternatively you can:
+If the `proxy` option is **not** ible enough for you, alternatively you can:
 
 * [Configure the proxy yourself](#configuring-the-proxy-manually)
 * Enable CORS on your server ([here’s how to do it for Express](http://enable-cors.org/server_expressjs.html)).
@@ -1109,7 +1109,7 @@ We don’t recommend this approach.
 
 >Note: this feature is available with `react-scripts@1.0.0` and higher.
 
-If the `proxy` option is **not** flexible enough for you, you can specify an object in the following form (in `package.json`).<br>
+If the `proxy` option is **not** ible enough for you, you can specify an object in the following form (in `package.json`).<br>
 You may also specify any configuration value [`http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware#options) or [`http-proxy`](https://github.com/nodejitsu/node-http-proxy#options) supports.
 ```js
 {

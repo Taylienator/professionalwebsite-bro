@@ -9,8 +9,8 @@ export default class Navbar extends React.Component{
                 return(
                  
 
-                  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-  <ul class="navbar-nav ml-auto">
+                  <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+  <ul className="navbar ml-auto hellonav">
   <li className="nav-item">
               <Link to='/' className="nav-link" href="#about" id='navitembro'>Home</Link>
             </li>
