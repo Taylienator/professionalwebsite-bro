@@ -486,6 +486,7 @@ blink{
 
     .headerproj{
         font-size:20px;
+        margin-top:45px;
     }
 
     .calendarlink1{
@@ -514,6 +515,17 @@ blink{
         justify-content:center;
     }
    
+    .projectviewlink > a{
+        display:flex;
+        flex-direction:column;
+        padding:9px;    
+        font-size:20px;
+
+    }
+
+    .projectviewlink{
+        margin-top:15px;
+    }
 
 }
 
@@ -554,8 +566,15 @@ blink{
 
 @media screen and (max-width:360px){
     .projectviewlink > a{
-        display:inline;
-        padding:9px;
+        display:flex;
+        flex-direction:column;
+        padding:9px;    
+        font-size:20px;
+
+    }
+
+    .projectviewlink{
+        margin-top:15px;
     }
    
 
@@ -591,6 +610,18 @@ blink{
         display:flex;
         justify-content:center;
     }
+
+    .projectviewlink > a{
+        display:flex;
+        flex-direction:column;
+        padding:9px;    
+        font-size:20px;
+
+    }
+
+    .projectviewlink{
+        margin-top:15px;
+    }
 }
 
 .hellonav{
@@ -609,4 +640,8 @@ a.navlink:hover{
 
 .d-flex{
     height:100vh;
+}
+
+.frontheader{
+    margin-bottom:300px;
 }

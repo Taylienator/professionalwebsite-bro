@@ -39,7 +39,7 @@ class App extends Component {
 
     <header className="masthead text-center text-white d-flex">
       <div className="container my-auto">
-        <div className="row">
+        <div className="row frontheader">
           <div className="col-lg-10 mx-auto">
             <h1 className="text-uppercase">
               <strong id="headername">TAYLOR LAKE<blink></blink></strong>
