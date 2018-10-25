@@ -26,7 +26,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className='projectview'>
+      <div className='aboutview'>
           <div className='flex-container'>
           <ul className='flexitem'>
                                 <li><Link to='/' className='navlink'>Home</Link></li>
@@ -37,18 +37,18 @@ class App extends Component {
           </div>
            
 
-    <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
+    <header className="masthead text-center text-white d-flex">
+      <div className="container my-auto">
+        <div className="row">
+          <div className="col-lg-10 mx-auto">
+            <h1 className="text-uppercase">
               <strong id="headername">TAYLOR LAKE<blink></blink></strong>
             </h1>
             
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5" id="fsd">FULL-STACK DEVELOPER</p>
-            <Link to='/aboutme' class="btn btn-outline-light text-white" href="#about" id="findoutmore">FIND OUT MORE!</Link>
+          <div className="col-lg-8 mx-auto">
+            <p className="text-faded mb-5" id="fsd">FULL-STACK DEVELOPER</p>
+            <Link to='/aboutme' className="btn btn-outline-light text-white" href="#about" id="findoutmore">FIND OUT MORE!</Link>
           </div>
         </div>
       </div>

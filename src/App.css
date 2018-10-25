@@ -606,3 +606,7 @@ blink{
 a.navlink:hover{
     color:white;
 }
+
+.d-flex{
+    height:100vh;
+}

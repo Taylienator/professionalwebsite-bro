@@ -23,7 +23,7 @@ export default class Aboutme extends React.Component{
    
             render(){
                 return(
-                    <div class='aboutview'>
+                    <div className='aboutview'>
                         <div className='flex-container'>
                             <ul className='flexitem'>
                                 <li><Link to='/' className='navlink'>Home</Link></li>
