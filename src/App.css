@@ -528,6 +528,61 @@ blink{
     }
 
 }
+@media screen and (max-width:525px){
+
+    .aboutp > p{
+        width:360px;
+        margin-top:-80px;
+        font-size:15px;
+        font-weight:bold;
+        color:white;
+    }
+    #navitembro{
+        font-size:15px;
+    }
+    .flex-container{
+        display:flex;
+        justify-content:center;
+    }
+
+    .projectviewlink > a{
+        display:flex;
+        flex-direction:column;
+        padding:9px;    
+        font-size:20px;
+
+    }
+
+    .projectviewlink{
+        margin-top:15px;
+    }
+
+    #personalpic{
+        display:none;
+    }
+}
+
+.hellonav{
+    list-style-type: none;
+    text-decoration:none;
+}
+
+.nav-link{
+    background-color:black;
+    
+}
+
+a.navlink:hover{
+    color:white;
+}
+
+.d-flex{
+    height:100vh;
+}
+
+.frontheader{
+    margin-bottom:300px;
+}
 
 @media screen and (max-width:450px){
     #contactmeheader{
@@ -560,7 +615,17 @@ blink{
         display:flex;
         justify-content:center;
     }
+
+    .personalpic{
+        display:none;
+    }
    
+    .headercal{
+        margin-top:0px;
+        height:250px;
+        width:408px;
+        
+    }
    
 }
 
@@ -573,20 +638,51 @@ blink{
 
     }
 
+    .text-dark{
+        margin-top:-30px;
+    }
+
+    .origincalendarabout{
+       
+        color: lightgray;
+        margin-top: 0px;
+        margin-left:-3px;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 17px;
+        background-color: white;
+        width:363px;
+
+    }
+    
+    .headercal{
+        height: 38px;
+        width: 414px;
+        margin-left:-20px;
+    }
+    
+    #origincalendar{
+        height:260px;
+        width:370px;
+    }
+    
+
     .projectviewlink{
         margin-top:15px;
     }
    
 
     #personalpic{
-        margin:auto;
+       display:none;
+        
     }
     .aboutview{
         overflow:hidden;
     }
 
-    .aboutp1{
-        width:300px;
+    .aboutp > p{
+        width:337px;
+        font-size:13px
     }
     #navitembro{
         font-size:15px;
@@ -598,50 +694,22 @@ blink{
    }
 }
 
-@media screen and (max-width:525px){
-    .aboutp1{
+@media screen and (max-width:320px){
+    .aboutp >p {
         width:300px;
+        font-size:11px;
     }
 
-    #navitembro{
-        font-size:15px;
-    }
-    .flex-container{
-        display:flex;
-        justify-content:center;
-    }
-
-    .projectviewlink > a{
-        display:flex;
-        flex-direction:column;
-        padding:9px;    
-        font-size:20px;
-
-    }
-
-    .projectviewlink{
-        margin-top:15px;
+    #origincalendar{
+        height:230;
+        width:334px;
     }
 }
 
-.hellonav{
-    list-style-type: none;
-    text-decoration:none;
-}
+@media screen and (max-width:1000px){
+    #personalpic{
+        display:none;
+    }
 
-.nav-link{
-    background-color:black;
-    
-}
 
-a.navlink:hover{
-    color:white;
-}
-
-.d-flex{
-    height:100vh;
-}
-
-.frontheader{
-    margin-bottom:300px;
 }

@@ -9,7 +9,7 @@ import { Link, Route } from 'react-router-dom'
 export default class ProjectViews extends React.Component{
     render(){
         return(
-            <div class='projectview'>
+            <div className='projectview'>
                <div className='flex-container'>
                             <ul className='flexitem'>
                                 <li><Link to='/' className='navlink'>Home</Link></li>
