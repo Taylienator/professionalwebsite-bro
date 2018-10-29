@@ -20,7 +20,7 @@ import mongodb from './imagesandstuff/mongodb.svg'
 import nodejs from './imagesandstuff/nodejs.svg'
 import profilepic from './imagesandstuff/profilepic.jpeg'
 
-import './App.css';
+ import './App.css';
 
 
 class App extends Component {

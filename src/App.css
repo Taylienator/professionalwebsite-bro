@@ -622,10 +622,34 @@ a.navlink:hover{
    
     .headercal{
         margin-top:0px;
-        height:250px;
-        width:408px;
+        height:80px;
+        width:100vw;
         
     }
+
+    .origincalendarabout{
+       
+        color: lightgray;
+        margin-top: 0px;
+        margin-left:-3px;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 17px;
+        background-color: white;
+        width:102%
+
+    }
+
+    #origincalendar{
+        height:260px;
+        width:370px;
+        margin-top:-20px;
+    }
+
+    .text-dark{
+        margin-top:-30px;
+    }
+    
    
 }
 
@@ -702,7 +726,21 @@ a.navlink:hover{
 
     #origincalendar{
         height:230;
-        width:334px;
+        width:100vw;
+    }
+
+    .headercal{
+        width:100vw;
+        height:38px;
+        display:flex;
+        justify-content: center;
+        margin-left:0px;
+    }
+
+    .origincalendarabout{
+        width:323px;
+        font-size:8.5px;
+        padding:10px;
     }
 }
 
@@ -712,4 +750,18 @@ a.navlink:hover{
     }
 
 
+}
+
+#test-1{
+
+
+}
+
+#test-2{
+    list-style-type:none;
+    border-color:black;
+    display:inline;
+    border:1px solid black;
+    padding:7px;
+    
 }
